@@ -17,9 +17,13 @@ function ValueInput() {
     // setValue(document.getElementById("number").value);
   }
   function submitHandler() {
-    console.log("The value :");
-    console.log(value);
-    console.log(typeof value);
+    let number = 0;
+    if (isEnglish) {
+      number = Number(value.replace(/,/g, ""));
+    } else {
+      number = Number(value.replace(/\./g, "").replace(",", "."));
+    }
+    console.log(number);
   }
 
   function inputHandler(e) {
