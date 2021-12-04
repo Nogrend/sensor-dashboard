@@ -1,3 +1,16 @@
-.item {
+.ValueInput {
   padding: 20px;
+  font-size: 2rem;
 }
+.Button {
+  padding: 20px;
+  font-size: 2rem;
+  width: 6rem;
+  text-align: center;
+}
+.Input {
+  padding: 20px;
+  font-size: 2rem;
+}
+
+/* https://www.freecodecamp.org/news/css-naming-conventions-that-will-save-you-hours-of-debugging-35cea737d849/ */
