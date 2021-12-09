@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <ValueInput />
+        {/* <ValueInput /> */}
         <div style={{ padding: "1em" }}>
           <a
             href="https://www.npmjs.com/package/react-number-format"
