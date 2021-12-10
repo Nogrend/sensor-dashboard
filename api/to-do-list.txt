@@ -1,0 +1,17 @@
+
+get peak and offPeak each day
+show 
+
+
+get request op je nodejs server
+
+die de data op zijn beurt weer uit de db haalt
+
+
+Stuff to add later on
+const dateFormatTimestamp = new Date(inputData.timestamp).toLocaleString("en-NL", {timeZone: "Europe/Amsterdam"});
+
+
+
+For the frontend:
+//new Date(items[0].timestamp).toLocaleString("en-NL", {timeZone: "Europe/Amsterdam"})
